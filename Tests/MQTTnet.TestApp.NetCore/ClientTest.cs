@@ -6,6 +6,7 @@ using MQTTnet.Client.Connecting;
 using MQTTnet.Client.Disconnecting;
 using MQTTnet.Client.Options;
 using MQTTnet.Client.Receiving;
+using MQTTnet.Formatter;
 using MQTTnet.Protocol;
 
 namespace MQTTnet.TestApp.NetCore
@@ -20,13 +21,10 @@ namespace MQTTnet.TestApp.NetCore
 
                 var factory = new MqttFactory();
                 var client = factory.CreateMqttClient();
-                var clientOptions = new MqttClientOptions
-                {
-                    ChannelOptions = new MqttClientTcpOptions
-                    {
-                        Server = "127.0.0.1"
-                    }
-                };
+                var clientOptions =
+                    new MqttClientOptionsBuilder().
+                        WithWebSocketServer("ws://localhost:5000/mqtt").Build();
+
 
                 client.ApplicationMessageReceivedHandler = new MqttApplicationMessageReceivedHandlerDelegate(e =>
                 {

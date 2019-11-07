@@ -53,6 +53,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.Server", "Source\MQ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.Extensions.WebSocket4Net", "Source\MQTTnet.Extensions.WebSocket4Net\MQTTnet.Extensions.WebSocket4Net.csproj", "{2BD01D53-4CA5-4142-BE8D-313876395E3E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BedrockTransports", "..\BedrockTransports\BedrockTransports\BedrockTransports.csproj", "{DA4B7703-98BB-4761-AAFE-3747E160DB49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.Server.Sample", "..\BedrockTransports\MQTTnet.Server.Sample\MQTTnet.Server.Sample.csproj", "{FFD9E265-122C-4D84-8347-2290D1263832}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -264,6 +268,38 @@ Global
 		{2BD01D53-4CA5-4142-BE8D-313876395E3E}.Release|x64.Build.0 = Release|Any CPU
 		{2BD01D53-4CA5-4142-BE8D-313876395E3E}.Release|x86.ActiveCfg = Release|Any CPU
 		{2BD01D53-4CA5-4142-BE8D-313876395E3E}.Release|x86.Build.0 = Release|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Release|ARM.Build.0 = Release|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Release|x64.Build.0 = Release|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA4B7703-98BB-4761-AAFE-3747E160DB49}.Release|x86.Build.0 = Release|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Debug|ARM.Build.0 = Debug|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Debug|x64.Build.0 = Debug|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Debug|x86.Build.0 = Debug|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Release|ARM.Build.0 = Release|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Release|x64.ActiveCfg = Release|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Release|x64.Build.0 = Release|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Release|x86.ActiveCfg = Release|Any CPU
+		{FFD9E265-122C-4D84-8347-2290D1263832}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
